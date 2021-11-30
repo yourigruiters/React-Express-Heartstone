@@ -35,4 +35,4 @@ Styling
 
 ##### Landing page
 
-![HeartstoneTracker](github.JPG)
+![HeartstoneTracker](/readme_screenshots/github.JPG)

@@ -1,11 +1,17 @@
 @import "../../styles/variables.scss";
 
 .homepage {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 
-	&__information {
-		border-top: 5px solid $light-brown;
-		border-bottom: 5px solid $light-brown;
-	}
+  &__information {
+    border-top: 5px solid $light-brown;
+    border-bottom: 5px solid $light-brown;
+  }
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  padding: 50px;
 }

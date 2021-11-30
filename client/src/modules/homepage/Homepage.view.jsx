@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Homepage.view.scss";
 import Banner from "./components/banner/Banner";
 import Bannermodes from "./components/bannermodes/Bannermodes";
@@ -19,7 +19,7 @@ const HomepageView = (props) => {
       description:
         "Want to find more details regarding the heroes available to you in Hearthstone? Navigate to the heroes page and see what heroes and abilities are open for your needs! More information about these heroes can be found on the official Hearthstone website.",
       button: "View heroes",
-      order: true
+      order: true,
     },
     {
       id: 1,
@@ -28,8 +28,8 @@ const HomepageView = (props) => {
         "We provide you with access to all the cards and cardbacks currently used in the Hearthstone game. The cardbacks provide you with an extra view of their description and the playing cards can be filtered in a lot of different ways to provide the correct view.",
       button: "View cards",
       button2: "View cardbacks",
-      order: false
-    }
+      order: false,
+    },
   ];
 
   return (
@@ -51,7 +51,7 @@ const HomepageView = (props) => {
 };
 
 HomepageView.propTypes = {
-  history: PropTypes.object
+  history: PropTypes.object,
 };
 
 export default HomepageView;
